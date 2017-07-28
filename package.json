@@ -1,0 +1,28 @@
+{
+  "name": "SmartAgent",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "react": "16.0.0-alpha.12",
+    "react-native": "0.46.4",
+    "react-native-check-box": "^2.0.0",
+    "react-native-checkbox": "^1.1.0",
+    "react-native-custom-checkbox": "^1.5.1",
+    "react-native-datepicker": "^1.6.0",
+    "react-native-router-flux": "^3.35.0",
+    "react-navigation": "git+https://github.com/react-community/react-navigation.git"
+  },
+  "devDependencies": {
+    "babel-jest": "20.0.3",
+    "babel-preset-react-native": "2.1.0",
+    "jest": "20.0.4",
+    "react-test-renderer": "16.0.0-alpha.12"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
